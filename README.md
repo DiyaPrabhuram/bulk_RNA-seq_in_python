@@ -1,4 +1,4 @@
-# bulk_RNA-seq_in_python
+# Bulk RNA-seq Analysis in Python
 This repository contains all the basic information one needs to conduct bulk RNA-seq analysis in python.
 
 # Basic Differential Expression Analysis
