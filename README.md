@@ -12,3 +12,5 @@ GSEA is a computational method that determines whether an a priori defined set o
 Raw counts for differential expression analysis: https://www.ncbi.nlm.nih.gov/geo/download/?type=rnaseq_counts&acc=GSE115828&format=file&file=GSE115828_raw_counts_GRCh38.p13_NCBI.tsv.gz
 
 Gene annotation table: https://www.ncbi.nlm.nih.gov/geo/download/?format=file&type=rnaseq_counts&file=Human.GRCh38.p13.annot.tsv.gz
+
+NOTE: The sanbomics tutorial is a nice, general example on how to run a basic RNA-seq analysis in python. The colab tutorial is specific to the AMD dataset.
