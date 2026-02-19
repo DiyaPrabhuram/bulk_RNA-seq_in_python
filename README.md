@@ -13,4 +13,6 @@ Raw counts for differential expression analysis: https://www.ncbi.nlm.nih.gov/ge
 
 Gene annotation table: https://www.ncbi.nlm.nih.gov/geo/download/?format=file&type=rnaseq_counts&file=Human.GRCh38.p13.annot.tsv.gz
 
-NOTE: The PyDeseq2_DE_tutorial.ipynb tutorial file is a nice, general example on how to run a basic RNA-seq analysis in python (credits - sanbomics youtube channel). The RNA_seq_with_pyDESeq2.ipynb tutorial file is specific to the AMD dataset.
+IMPORTANT NOTES:
+Upon discussing with a leading researcher in the field of transcriptomics research, it has been pointed out that there is some controversy surrounding the DESeq2 implemented in R versus the one in python. I think it comes down to the fact that the results across the two implementations are inconsistent. Refer to this discussion thread for more information - https://github.com/TCP-Lab/gene_ranker/issues/6
+Most importantly, when the sample size of your dataset is greater than 8, it is recommended that you skip the DESeq2 (or EdgeR) algorithm and run limma-voom or the wilcoxon rank sum test instead. Refer to this article for more information - https://towardsdatascience.com/deseq2-and-edger-should-no-longer-be-the-default-choice-for-large-sample-differential-gene-8fdf008deae9/
